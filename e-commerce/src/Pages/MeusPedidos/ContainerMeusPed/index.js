@@ -1,5 +1,5 @@
 import MeuPedido from "../MeuPedido";
-import tenis2 from '../VerMeuCarrinho/tenis2.png.png'
+import tenisprodutos from "./tenismeuproduto.png"
 
 export default function ContainerMeusPed(){    
     return(
@@ -9,23 +9,23 @@ export default function ContainerMeusPed(){
             <th className="tabelaProdTH">STATUS</th>
             <tbody>
                     <tr className="bordertoptabela">
-                    <td> <MeuPedido imagem={tenis2} idpedido="2234981932" nomepedido="Tênis Nike Revolution 6 Next Nature Masculino" /></td>
+                    <td> <MeuPedido imagem={tenisprodutos} idpedido="2234981932" nomepedido="Tênis Nike Revolution 6 Next Nature Masculino" /></td>
                     <td className="statusProd"> Produto em Transito</td>
                 </tr>
                 <tr className="bordertoptabela" >
-                <td> <MeuPedido imagem={tenis2} idpedido="4495810492" nomepedido="Tênis Nike Revolution 6 Next Nature Masculino" /></td>
+                <td> <MeuPedido imagem={tenisprodutos} idpedido="4495810492" nomepedido="Tênis Nike Revolution 6 Next Nature Masculino" /></td>
                 <td className="statusProdFin"> Finalizado</td>
                 </tr>
                 <tr className="bordertoptabela">
-                <td> <MeuPedido imagem={tenis2} idpedido="4495810492" nomepedido="Tênis Nike Revolution 6 Next Nature Masculino" /></td>
+                <td> <MeuPedido imagem={tenisprodutos} idpedido="4495810492" nomepedido="Tênis Nike Revolution 6 Next Nature Masculino" /></td>
                 <td className="statusProdCan">Cancelado</td>
                 </tr>
                 <tr className="bordertoptabela">
-                <td> <MeuPedido imagem={tenis2} idpedido="44958104921932" nomepedido="Tênis Nike Revolution 6 Next Nature Masculino" /></td>
+                <td> <MeuPedido imagem={tenisprodutos} idpedido="44958104921932" nomepedido="Tênis Nike Revolution 6 Next Nature Masculino" /></td>
                 <td className="statusProdFin"> Finalizado</td>
                 </tr>
                 <tr className="bordertoptabela">
-                <td> <MeuPedido imagem={tenis2} idpedido="44958104921932" nomepedido="Tênis Nike Revolution 6 Next Nature Masculino" /></td>
+                <td> <MeuPedido imagem={tenisprodutos} idpedido="44958104921932" nomepedido="Tênis Nike Revolution 6 Next Nature Masculino" /></td>
                 <td className="statusProdFin">Finalizado</td>
                 </tr>
 

@@ -1,10 +1,10 @@
-import { Link, useLocation } from "react-router-dom"
+import { Link } from "react-router-dom"
 import "./index.css"
 import logoSimble from "./img/Vector.png"
 import search from "./img/Search.png"
 import React from "react";
 import MeuCarrinho from "../../Pages/MeuCarrinho";
-import Carrinho from "./Carrinho";
+
 
 
 export default function Nav(){

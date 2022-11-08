@@ -4,7 +4,7 @@ import Carrinho from "../../components/Nav/Carrinho";
 import tenis from "./../../components/Nav/img/tenis1.png"
 import './style.css'
 export default function MeuCarrinho() {
-    const [exibir, setExibir] = useState(true)
+    const [exibir, setExibir] = useState(false)
     let ComponentCarrinhoHover = () => (<>
         <div style={{
             backgroundColor: '#ffffff',
