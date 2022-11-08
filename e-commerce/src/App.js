@@ -11,8 +11,6 @@ import Login from "./Pages/Login/index.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import VerMeuCarrinho from "./Pages/VerMeuCarrinho/index.js";
 
-
-
 export default function App() {
   return (
     
