@@ -1,5 +1,5 @@
 import MeuPedido from "../MeuPedido";
-import tenis2 from './tenis2.png.png'
+import tenis2 from '.e-commerce/src/Pages/VerMeuCarrinho/tenis2.png.png'
 
 export default function ContainerMeusPed(){    
     return(
