@@ -9,7 +9,7 @@ export default function ContainerMeusPed(){
             <th className="tabelaProdTH">STATUS</th>
             <tbody>
                     <tr className="bordertoptabela">
-                    <td> <MeuPedido imagem={tenis} idpedido="2234981932" nomepedido="Tênis Nike Revolution 6 Next Nature Masculino" /></td>
+                    <td> <MeuPedido imagem={tenis2} idpedido="2234981932" nomepedido="Tênis Nike Revolution 6 Next Nature Masculino" /></td>
                     <td className="statusProd"> Produto em Transito</td>
                 </tr>
                 <tr className="bordertoptabela" >
